@@ -6,12 +6,12 @@
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --primary-color: #2B2B2B;
   --text-color: white;
 }
 
-html{
+html {
   font-size: 10px;
 }
 
@@ -25,7 +25,7 @@ img {
   max-width: 372px;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -41,7 +41,8 @@ a{
   grid-template-columns: 1fr 1fr;
   grid-row: 0;
 }
-@media only screen and (max-width: 768px){
+
+@media only screen and (max-width: 768px) {
   .container {
     width: 100%;
     grid-template-columns: 1fr;
@@ -53,20 +54,21 @@ a{
 .profile-ptofileImg img {
   border-radius: 50%;
 }
-.header-box{
+
+.header-box {
   display: flex;
   flex-direction: column;
 }
 
-.name-box .profile-name{
+.name-box .profile-name {
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
-.name-box  .profile-subtitle {
+.name-box .profile-subtitle {
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
 .profile {
@@ -99,11 +101,11 @@ a{
   margin-bottom: 20px;
 }
 
-.profile-aboutMe{
+.profile-aboutMe {
   font-size: 36px;
 }
 
-.about-box .profile-aboutMe{
+.about-box .profile-aboutMe {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -126,7 +128,6 @@ a{
 }
 
 .hero-container {
-  display: flex;
   flex-direction: column;
 }
 
@@ -143,6 +144,11 @@ a{
   justify-content: center;
   font-size: 36px;
   margin-bottom: 20px;
+}
+
+.hero-container-skills {
+  display: flex;
+  margin-top: -450px;
 }
 
 .hero-container {
@@ -171,3 +177,4 @@ a{
   font-size: 28px;
   text-decoration: underline;
 }
+
