@@ -32,14 +32,14 @@ a{
 
 .container {
   max-width: 1000px;
-  height: 1873px;
+  height: 1800px;
   width: 90%;
   margin: 0 auto;
   display: grid;
   padding: 5rem;
   background: #2B2B2B;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid-row: 0;
 }
 @media only screen and (max-width: 768px){
   .container {
@@ -72,6 +72,7 @@ a{
 .profile {
   grid-column: 1/ -1;
   margin-bottom: 2rem;
+  max-height: 150px;
 }
 
 .profile-name {
@@ -92,8 +93,8 @@ a{
   gap: 2rem;
 }
 
-hr {
-  border: 4px solid black;
+.profile-line {
+  border: 4px solid rgb(0, 0, 0);
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -122,4 +123,51 @@ hr {
 #developer {
   text-decoration: underline;
   font-size: 18px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-line {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 898px;
+  margin-top: -500px;
+}
+
+.hero-container-skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-container ul {
+  columns: 3;
+}
+
+.sills-list {
+  font-size: 28px;
+  margin-left: 110px;
+  margin-bottom: 59px;
+}
+
+.productive-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-productive {
+  font-size: 28px;
+  text-decoration: underline;
 }
